@@ -15,7 +15,7 @@ class ImageController extends Controller
 
        $client = new Client();
 
-       $crawler = $client->request('GET', "https://www.google.com/search?q=$searchQuery&tbm=isch");
+       $crawler = $client->request('GET', "https://www.google.com/search?q=$searchQuery&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjC2-Kn6cT9AhWixgIHHcW_AGAQ_AUoAXoECAEQAw&biw=1366&bih=649&safe=active");
 
         $imageUrls = $crawler->filter('img')->each(function ($node) {
                 return $node->attr('src');
@@ -27,7 +27,6 @@ class ImageController extends Controller
 
         $imageUrls = array_slice($imageUrls, 0, 5);
         $imageAltTexts = array_slice($imageAltTexts, 0, 5);
-
 
         return response()->json([
             'imageUrls' => $imageUrls,
