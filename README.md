@@ -1,9 +1,10 @@
-<div style="text-align: center;">
-    <p><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-    <p><strong>Laravel Google Images</strong></p>
+<p align="center">
 
-    <p>This project is a Laravel web crawler that runs on guzzle http and utilizes Google Search to get the most relevant pictures for a search term.</p>
+# Laravel Google Images
+
+This project is a Laravel web crawler that runs on guzzle http and utilizes Google Search to get the most relevant pictures for a search term.
 
 ## Prerequisites
 
@@ -67,4 +68,3 @@ The project does not have documentation yet.
 I hope this helps!
 
 </p>
-</div>
